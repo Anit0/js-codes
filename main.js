@@ -59,4 +59,28 @@ function introduce(name,age) {
     console.log("I am " + age + " years old")
 
 }
-introduce("Akhlak",26);
+introduce("Akhlak",26); //Function Arguments
+
+const add1 = function(a, b) {
+    return a + b;
+};
+
+console.log(add(10, 20));
+
+const greet1 = function(){
+    console.log("Hello World")
+};
+
+greet1();
+
+function CheckAge(age){
+    if (age >= 18) {
+        return "He is adult";
+    } else {
+        return "He is Minor";
+    }
+}
+
+console.log(CheckAge(20));
+console.log(CheckAge(15));
+console.log(CheckAge(23));
